@@ -1,4 +1,7 @@
 # fMRI_intersubject_varability
+This repository accompanies our research paper titled "Comparing group ICA, group
+information-guided ICA, and independent vector analysis (IVA) for analysing fMRI data: A Study on
+Inter-Subject Variabilities in Mild Cognitive Impairment and Healthy Controls"
 This is based on the results of multiple ICA methods, which first perform component matching and then calculate inter-subject variability.
 Specific steps: First, extract the SMs and TCs obtained after processing the three methods, and then use the greedy rule to match, the code is shown in the folder matching_Components;
 Then the inter-subject variability was calculated, see Intersubject_Components folder.
